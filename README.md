@@ -1,40 +1,32 @@
-# InNews🇮🇳: News Summarizer App
+# 📰 InNews🇮🇳: News Summarizer App
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
-[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)   
+**InNews** is a lightweight and interactive news summarizer web app built using **Streamlit**. It helps users stay updated with trending headlines, search for specific topics, and generate concise summaries for both live news and custom text.
 
-## [Watch Tutorial for this project](https://youtu.be/HHYqpHwGDgQ)
-<img src="https://github.com/Spidy20/InNews/blob/master/thumb.jpg">
+---
 
-## [Demo of App](https://share.streamlit.io/spidy20/innews/App.py)
+## 🔧 Technologies Used
 
-## Source
-- For summarizing the news I have used [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
-- For scraping the news I have used Google News RSS API.
+- [Newspaper3k](https://newspaper.readthedocs.io/en/latest/) – For article content extraction and summary generation  
+- Google News RSS API – For fetching real-time news articles  
+- Streamlit – For building the interactive web app  
+- Python – Core programming language
 
-## Features
-- Trending News
-- Favorite Topics
-- Search News
-- Quantity control
+---
 
-## Usage
-- Clone my repository.
-- Open CMD in working directory.
-- Run following command.
-  ```
-  pip install -r requirements.txt
-  ```
-- `App.py` is the main Python file of Streamlit Web-Application. 
-- To run app, write following command in CMD. or use any IDE.
-  ```
-  streamlit run App.py --server.port 80
-  ```
-- For more explanation of this project see the tutorial on Machine Learning Hub YouTube channel.
+## ✨ Features
 
+- 📢 **Trending News**: Get a list of top trending news articles  
+- 🔍 **Search News**: Search news on any topic/keyword  
+- 🌐 **Favorite Topics**: Filter news by your preferred categories  
+- 📄 **Summary Generator**: Automatically summarize full-length articles using NLP  
+- ✍️ **Paste & Summarize**: Paste any news text or article manually to get a summary  
+- 🔢 **Quantity Control**: Customize how many news articles you want to display  
 
-## Just follow☝️ me and Star⭐ my repository 
+---
 
-## [Buy me a Coffee☕](https://www.buymeacoffee.com/spidy20)
-## [Donate me on PayPal](https://www.paypal.me/spidy1820)
-## Donate me via UPI - machinelearninghubai@okhdfcbank
+## 🚀 How to Use
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/InNews.git
+cd InNews
